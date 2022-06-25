@@ -1,31 +1,12 @@
 .App {
+  display:flex;
+  flex-direction:column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
-  color: #61dafb;
+  color: #00b5fd;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +17,35 @@
     transform: rotate(360deg);
   }
 }
+/**
+ * FilePond Custom Styles
+ */
+.filepond--drop-label {
+	color: #4c4e53;
+  background:#b9adbe;
+  border-radius:10px;
+}
+
+.filepond--label-action {
+	color:#1a1c20;
+  font-family: 'Poppins', sans-serif;
+}
+
+.filepond--panel-root {
+	border-radius: 2rem;
+	 background-color:#b9adbe;
+	height: 1em;
+}
+
+.filepond--item-panel {
+	background-color: #82DBD8;
+}
+
+.filepond--drip-blob {
+	background-color: #82DBD8;
+}
+
+
+/**
+ * Page Styles
+ */
