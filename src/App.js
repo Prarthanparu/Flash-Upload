@@ -92,11 +92,11 @@ function App() {
         </div>
         <div style={{ width: '100%', justifyContent: "center" }}>
           <h3 style={{ fontFamily: 'Poppins', fontSize: '50px', marginTop: 0, marginBottom: 0 }}>
-            Flash Uploads Using <span style={{ fontWeight: '100', fontSize: "20px", textDecoration: "underline" }}>FilePond</span>
+            Flash Uploads With Custom Crop Using <span style={{ fontWeight: '100', fontSize: "20px", textDecoration: "underline" }}>FilePond</span>
           </h3>
         </div>
         <div style={{ width: '100%', justifyContent: "center" }}>
-          <p>This is a Small component which i built using FilePond Where You can upload '∞' number of Images </p>
+          <p>This is a Small component which i built using FilePond Where You can upload '∞' number of Images with a Fixed Res(1920x328) </p>
         </div>
 
       </header>
